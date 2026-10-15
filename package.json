@@ -1,0 +1,13 @@
+{
+  "name": "sanskruti-portfolio",
+  "version": "1.0.0",
+  "description": "Sanskruti Jagdale - Portfolio Website",
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "start": "serve . -l 3000",
+    "build": "echo 'Static website: no build step needed.'"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

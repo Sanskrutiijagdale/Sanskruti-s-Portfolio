@@ -232,15 +232,14 @@ ul {
 .hero-title {
     font-size: 4.5rem;
     line-height: 1.1;
-    margin-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 0.8rem;
+    text-align: center;
 }
 
-.name {
-    display: block;
-    margin-bottom: 0.5rem;
+.role-typewriter-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
 }
 
 .role-typewriter {
@@ -1171,3 +1170,29 @@ section {
         font-size: 1.3rem;
     }
 }
+
+/* Custom Additions */
+.hero-tagline-kicker {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.badge-card .badge-org {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    margin-top: -0.4rem;
+}
+
+.footer-location {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+}
+

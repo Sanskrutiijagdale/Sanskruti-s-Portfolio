@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sanskrutiijagdale.github.io/Sanskruti-s-Portfolio/sitemap.xml
